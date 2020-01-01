@@ -51,6 +51,31 @@ string myPlanet<span class="token punctuation">;</span>
 cin <span class="token operator">&gt;&gt;</span> myPlanet<span class="token punctuation">;</span>
 cout <span class="token operator">&lt;&lt;</span> myPlanet<span class="token punctuation">;</span>
 </code></pre>
+<h3 id="nhập-xuất-khai-báo">Nhập xuất, khai báo</h3>
+<p>Kiểu dữ liệu <strong>string</strong> nằm trong thư viện &lt; string &gt; và trong <strong>namespace std;</strong> nên nhớ khai báo trước khi sử dụng nhé.</p>
+<p>Cách nhập một chuỗi string trong C++ có nhiều cách:</p>
+<ol>
+<li>Nhập các từ đơn lẻ: “Hello”, “PROPTIT”,… chỉ cần dùng</li>
+</ol>
+<pre class=" language-cpp"><code class="prism  language-cpp">string firstName<span class="token punctuation">;</span>
+cin <span class="token operator">&gt;&gt;</span> firstName<span class="token punctuation">;</span>
+</code></pre>
+<ol start="2">
+<li>Nhập một chuỗi nhiều từ (Đọc theo dòng)</li>
+</ol>
+<pre class=" language-cpp"><code class="prism  language-cpp">string myName<span class="token punctuation">;</span>
+<span class="token function">getline</span><span class="token punctuation">(</span>cin<span class="token punctuation">,</span> myName<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<ol start="3">
+<li>Đọc cho tới khi gặp một kí tự nào đó</li>
+</ol>
+<pre class=" language-cpp"><code class="prism  language-cpp">string myName<span class="token punctuation">;</span>
+<span class="token keyword">char</span> token <span class="token operator">=</span> <span class="token string">'t'</span><span class="token punctuation">;</span>
+<span class="token function">getline</span><span class="token punctuation">(</span>cin<span class="token punctuation">,</span> myName<span class="token punctuation">,</span> token<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span>
+Input<span class="token operator">:</span> my name is TaitDinh
+Output<span class="token operator">:</span> my name is Tai
+</code></pre>
 <h3 id="sử-dụng">Sử dụng</h3>
 <p>Do có nhiều lợi thế hơn nên <strong>string</strong> được cung cấp khá nhiều tiện ích:</p>
 <ol>
