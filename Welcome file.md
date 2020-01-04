@@ -112,5 +112,134 @@ cout <span class="token operator">&lt;&lt;</span> s<span class="token punctuatio
 <span class="token comment">// kq : riahc a si sihT</span>
 </code></pre>
 <p>Và do <strong>string</strong> cũng là một kiểu dữ liệu <strong>vector</strong> nên <strong>string</strong> cũng bao gồm tất cả các hàm có trong lớp <strong>vector</strong>.</p>
+<h3 id="một-số-hàm-xử-lí-chuỗi-trong-c">Một số hàm xử lí chuỗi trong C++</h3>
+<ol>
+<li>Truy cập vào một phần tử bất kì trong chuỗi<br>
+. Cú pháp: &lt;tên chuỗi&gt;.at(chỉ số);</li>
+</ol>
+<pre class=" language-cpp"><code class="prism  language-cpp">string str <span class="token operator">=</span> <span class="token string">"Hello PTIT"</span><span class="token punctuation">;</span>
+cout <span class="token operator">&lt;&lt;</span> "Ki tu tai chi so <span class="token number">0</span> là<span class="token operator">:</span> <span class="token operator">&lt;&lt;</span> str<span class="token punctuation">.</span><span class="token function">at</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+str<span class="token punctuation">.</span><span class="token function">at</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span> <span class="token operator">=</span> <span class="token string">'h'</span><span class="token punctuation">;</span>
+cout <span class="token operator">&lt;&lt;</span> "Chuoi str sau khi sua<span class="token operator">:</span> <span class="token operator">&lt;&lt;</span> str <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span> <span class="token comment">// hello PTIT</span>
+</code></pre>
+<ol start="2">
+<li><strong>substring</strong>: Cắt chuỗi</li>
+</ol>
+<pre class=" language-cpp"><code class="prism  language-cpp">string strA <span class="token operator">=</span> <span class="token string">"Ban Dao Tao Gen 6"</span><span class="token punctuation">;</span>
+string strB <span class="token operator">=</span> strA<span class="token punctuation">.</span><span class="token function">substring</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+cout <span class="token operator">&lt;&lt;</span> <span class="token string">"Chuoi sau khi cat la: "</span> <span class="token operator">&lt;&lt;</span> strB <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span> <span class="token comment">// "Ban"</span>
+</code></pre>
+<ol start="3">
+<li><strong>replace</strong>: Thay thế một đoạn substring bằng một đoạn string khác.</li>
+</ol>
+<pre class=" language-cpp"><code class="prism  language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+ 
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+ 
+   string str <span class="token operator">=</span> <span class="token string">"This is text"</span><span class="token punctuation">;</span>
+ 
+   <span class="token comment">// Thay thế các chuỗi con 4 ký tự bắt đầu từ vị trí 8</span>
+   <span class="token comment">// bởi chuỗi "string", và trả về tham chiếu</span>
+   string s2 <span class="token operator">=</span> str<span class="token punctuation">.</span><span class="token function">replace</span><span class="token punctuation">(</span><span class="token number">8</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token string">"string"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+ 
+   cout <span class="token operator">&lt;&lt;</span> <span class="token string">"- str="</span> <span class="token operator">&lt;&lt;</span> str <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span> <span class="token comment">// This is string</span>
+   cout <span class="token operator">&lt;&lt;</span> <span class="token string">"- s2="</span> <span class="token operator">&lt;&lt;</span> s2 <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>   <span class="token comment">// This is string</span>
+   cout <span class="token operator">&lt;&lt;</span> <span class="token string">" -------------- "</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+ 
+   <span class="token comment">// Sét lại str</span>
+   str <span class="token operator">=</span> <span class="token string">"This is text"</span><span class="token punctuation">;</span>
+ 
+   <span class="token comment">// Thay thế chuỗi con 4 ký tự bắt đầu từ chỉ số 8, bởi một chuỗi con của</span>
+   <span class="token comment">// một chuỗi khác, 6 ký tự bắt đầu từ chỉ số 0.</span>
+   <span class="token comment">// ==&gt; It is string</span>
+   string s3 <span class="token operator">=</span> str<span class="token punctuation">.</span><span class="token function">replace</span><span class="token punctuation">(</span><span class="token number">8</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">,</span> <span class="token string">"string is important"</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+ 
+   cout <span class="token operator">&lt;&lt;</span> <span class="token string">"- str="</span> <span class="token operator">&lt;&lt;</span> str <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span> <span class="token comment">// It is string</span>
+   cout <span class="token operator">&lt;&lt;</span> <span class="token string">"- s3="</span> <span class="token operator">+</span> s3 <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>    <span class="token comment">// It is string</span>
+   cout <span class="token operator">&lt;&lt;</span> <span class="token string">" -------------- "</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+ 
+<span class="token punctuation">}</span>
+</code></pre>
+<ol start="4">
+<li><strong>insert</strong>: Chèn một đoạn <strong>string</strong> vào một vị trí trong đoạn gốc</li>
+</ol>
+<pre class=" language-cpp"><code class="prism  language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+ 
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+ 
+    string str <span class="token operator">=</span> <span class="token string">"This text"</span><span class="token punctuation">;</span>
+ 
+    string s2 <span class="token operator">=</span> str<span class="token punctuation">.</span><span class="token function">insert</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token string">"is "</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+ 
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">"- str="</span> <span class="token operator">&lt;&lt;</span> str <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span> <span class="token comment">// This is text</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">"- s2="</span> <span class="token operator">&lt;&lt;</span> s2 <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>   <span class="token comment">// This is text</span>
+    cout <span class="token operator">&lt;&lt;</span> <span class="token string">" -------------- "</span> <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+ 
+<span class="token punctuation">}</span>
+</code></pre>
+<ol start="5">
+<li><strong>erase</strong>:</li>
+</ol>
+<pre class=" language-cpp"><code class="prism  language-cpp">strA <span class="token operator">=</span> <span class="token string">"Hello PTIT"</span><span class="token punctuation">;</span>
+strA<span class="token punctuation">.</span><span class="token function">erase</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// Xóa từ vị trí 5, xóa 1 kí tự</span>
+cout <span class="token operator">&lt;&lt;</span> strA <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span> <span class="token comment">// "HelloPTIT"</span>
+</code></pre>
+<hr>
+<h3 id="một-số-bài-tập-mẫu-về-xử-lí-string-trong-c">Một số bài tập mẫu về xử lí string trong C++</h3>
+<h4 id="bài-1-loại-bỏ-dấu-cách-thừa-trong-một-chuỗi">Bài 1: Loại bỏ dấu cách thừa trong một chuỗi</h4>
+<pre class=" language-cpp"><code class="prism  language-cpp">Giả sử có một chuỗi strA <span class="token operator">=</span> <span class="token string">"Hello   PTIT "</span><span class="token punctuation">;</span>
+Nhận thấy có thừa rất nhiều dấu cách giữa các từ<span class="token punctuation">,</span> 
+vậy nên chúng ta cần xóa bỏ các dấu cách thừa trong chuỗi
+<span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+<span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;string&gt;</span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	string a<span class="token punctuation">;</span>
+	<span class="token function">getline</span><span class="token punctuation">(</span>cin<span class="token punctuation">,</span> a<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// hàm nhập chuỗi nhiều từ</span>
+	<span class="token keyword">int</span> len <span class="token operator">=</span> a<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// lấy độ dài chuỗi</span>
+	<span class="token keyword">if</span> <span class="token punctuation">(</span>a<span class="token punctuation">.</span><span class="token function">at</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">' '</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token comment">// nếu đầu dãy là dấu cách</span>
+		a<span class="token punctuation">.</span><span class="token function">erase</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+	<span class="token keyword">if</span> <span class="token punctuation">(</span>a<span class="token punctuation">.</span><span class="token function">at</span><span class="token punctuation">(</span>len <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">' '</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> nếu cuối dãy là dấu cách
+		a<span class="token punctuation">.</span><span class="token function">erase</span><span class="token punctuation">(</span>len <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+	<span class="token keyword">int</span> index <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+	<span class="token keyword">while</span><span class="token punctuation">(</span>index <span class="token operator">&lt;</span> a<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">while</span> <span class="token punctuation">(</span>a<span class="token punctuation">.</span><span class="token function">at</span><span class="token punctuation">(</span>index<span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">' '</span> <span class="token operator">&amp;&amp;</span> a<span class="token punctuation">.</span><span class="token function">at</span><span class="token punctuation">(</span>index <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">==</span> <span class="token string">' '</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			a<span class="token punctuation">.</span><span class="token function">erase</span><span class="token punctuation">(</span>index<span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+		index<span class="token operator">++</span><span class="token punctuation">;</span>
+	<span class="token punctuation">}</span>
+	cout <span class="token operator">&lt;&lt;</span> a <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+</code></pre>
+<h4 id="bài-2-chuyển-tất-cả-chữ-thường-về-chữ-hoa">Bài 2: Chuyển tất cả chữ thường về chữ hoa</h4>
+<pre class=" language-cpp"><code class="prism  language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
+<span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;string&gt;</span></span>
+<span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
+
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	string a<span class="token punctuation">;</span>
+	<span class="token function">getline</span><span class="token punctuation">(</span>cin<span class="token punctuation">,</span> a<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// hàm nhập chuỗi nhiều từ</span>
+	<span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> a<span class="token punctuation">.</span><span class="token function">length</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+		<span class="token keyword">if</span> <span class="token punctuation">(</span>a<span class="token punctuation">.</span><span class="token function">at</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span> <span class="token operator">&gt;=</span> <span class="token string">'a'</span> <span class="token operator">&amp;&amp;</span> a<span class="token punctuation">.</span><span class="token function">at</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span> <span class="token operator">&lt;=</span> <span class="token string">'z'</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			a<span class="token punctuation">.</span><span class="token function">at</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span> <span class="token operator">=</span> a<span class="token punctuation">.</span><span class="token function">at</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token string">'A'</span> <span class="token operator">-</span> <span class="token string">'a'</span><span class="token punctuation">;</span>
+		<span class="token punctuation">}</span>
+	<span class="token punctuation">}</span>
+	cout <span class="token operator">&lt;&lt;</span> a <span class="token operator">&lt;&lt;</span> endl<span class="token punctuation">;</span>
+	<span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h4 id="bài-tập-luyện-tập-thêm">Bài tập luyện tập thêm</h4>
+<ol>
+<li>Đếm số lượng các từ trong xâu</li>
+<li>Kiểm tra xâu đối xứng</li>
+<li>Biểu diễn số nguyên lớn trong string&lt;tìm hiểu trên mạng&gt;</li>
+</ol>
 <h1 id="thank-you">Thank you</h1>
 
