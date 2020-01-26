@@ -30,7 +30,8 @@ Hay nói cách khác cần tối ưu hàm:<br>
 <li>B2: Tính điểm trung bình cho từng cụm</li>
 <li>B3: Gán lại các số liệu vào cụm có centroid gần nhất</li>
 <li>B4: Tính lại giá trị của điểm centroid của cụm</li>
-<li>Lặp lại B3 B4 cho tới khi không có sự thay đổi đáng kể xảy ra</li>
+<li>Lặp lại B3 B4 cho tới khi không có sự thay đổi đáng kể xảy ra<br>
+<a href="https://imgur.com/aqNfDYC">Imgur</a></li>
 </ul>
-<p><a href="https://imgur.com/Gb7g5KH">Imgur</a></p>
+<p>Phần core của thuật toán em có thể đã hiểu nhưng về phần code chưa thực sự chắc chắn ạ!</p>
 
