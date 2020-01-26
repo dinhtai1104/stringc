@@ -32,5 +32,5 @@ Hay nói cách khác cần tối ưu hàm:<br>
 <li>B4: Tính lại giá trị của điểm centroid của cụm</li>
 <li>Lặp lại B3 B4 cho tới khi không có sự thay đổi đáng kể xảy ra</li>
 </ul>
-<p><img src="https://imgur.com/Gb7g5KH" alt="alt text"></p>
+<p><a href="https://imgur.com/Gb7g5KH">Imgur</a></p>
 
