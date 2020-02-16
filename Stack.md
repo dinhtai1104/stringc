@@ -9,26 +9,7 @@
 </head>
 
 <body class="stackedit">
-  <div class="stackedit__left">
-    <div class="stackedit__toc">
-      
-<ul>
-<li><a href="#mục-lục">Mục lục</a>
-<ul>
-<li><a href="#giới-thiệu">Giới thiệu</a></li>
-<li><a href="#định-nghĩa">Định nghĩa</a></li>
-<li><a href="#code">Code</a></li>
-<li><a href="#ứng-dụng">Ứng dụng</a></li>
-<li><a href="#áp-dụng">Áp dụng</a></li>
-</ul>
-</li>
-</ul>
-
-    </div>
-  </div>
-  <div class="stackedit__right">
-    <div class="stackedit__html">
-      <h1 id="mục-lục">Mục lục</h1>
+  <div class="stackedit__html"><h1 id="mục-lục">Mục lục</h1>
 <hr>
 <ul>
 <li><a href="#gi%E1%BB%9Bi-thi%E1%BB%87u">Giới thiệu</a></li>
@@ -162,9 +143,7 @@ PTIT121E - Nguyên tố hóa học<br>
 <a href="https://www.spoj.com/PTIT/problems/PTIT121E/">https://www.spoj.com/PTIT/problems/PTIT121E/</a></p>
 <p>BCSTACK - Cấu trúc dữ liệu ngăn xếp (stack) (Cơ bản)<br>
 <a href="https://www.spoj.com/PTIT/problems/BCSTACK/">https://www.spoj.com/PTIT/problems/BCSTACK/</a></p>
-
-    </div>
-  </div>
+</div>
 </body>
 
 </html>
