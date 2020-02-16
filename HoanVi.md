@@ -3,9 +3,16 @@
 
 ---
 
+<h1 id="mục-lục">Mục lục</h1>
+<hr>
+<p><a href="#gi%E1%BB%9Bi-thi%E1%BB%87u">Giới thiệu</a><br>
+<a href="#gi%E1%BB%9Bi-thi%E1%BB%87u-thu%E1%BA%ADt-to%C3%A1n">Giới thiệu thuật toán</a><br>
+<a href="#thu%E1%BA%ADt-to%C3%A1n-kh%C3%A1c">Thuật toán khác</a></p>
 <h2 id="giới-thiệu">Giới thiệu</h2>
+<hr>
 <p>Một hoán vị trong toán học là một dãy gồm <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.43056em; vertical-align: 0em;"></span><span class="mord mathdefault">n</span></span></span></span></span> kí tự với các kí tự từ 1…9 xuất hiện duy nhất và chỉ một lần: 123, 321, 1234, …</p>
 <h2 id="giới-thiệu-thuật-toán">Giới thiệu thuật toán</h2>
+<hr>
 <p>Thuật toán sinh hoán vị kế tiếp là một thuật toán được dùng trong tin học máy tính rất nhiều, và thường được thấy ở một số bài toán giải thuật  áp dụng.</p>
 <p>Giống với “Sinh Nhị Phân”, sinh hoán vị cũng là thuật toán được áp dụng với các bài toán mang tính “Lựa chọn” có thứ tự.<br>
 Ví dụ: Các cách sắp xếp các số từ 1 đến 3 có thể là: 123, 321, 132, 231, 213, 312</p>
@@ -72,6 +79,7 @@ Ví dụ: Các cách sắp xếp các số từ 1 đến 3 có thể là: 123, 3
 <span class="token punctuation">}</span>
 </code></pre>
 <h2 id="thuật-toán-khác">Thuật toán khác</h2>
+<hr>
 <p>Bên cạnh việc sinh hoán vị bằng pp bên trên thì chúng ta cũng có thể sinh hoán vị bằng cách dùng pp Quay Lui được trình bày ở các bài trước.</p>
 <p>Chúng ta sẽ dùng một mảng A[n+1] lưu các hoán vị, khi đó các hoán vị sẽ được biểu diễn như sau:</p>
 <p>A[1], A[2], A[3], …,A[n].</p>
