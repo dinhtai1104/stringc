@@ -4,6 +4,7 @@
 ---
 
 <h1 id="mục-lục">Mục lục</h1>
+<hr>
 <p><a href="#gi%E1%BB%9Bi-thi%E1%BB%87u">Giới thiệu</a><br>
 <a href="#gi%E1%BB%9Bi-thi%E1%BB%87u-thu%E1%BA%ADt-to%C3%A1n">Giới thiệu thuật toán</a><br>
 <a href="#quay-lui-nh%E1%BB%8B-ph%C3%A2n">Quay lui nhị phân</a><br>
@@ -11,8 +12,8 @@
 <h2 id="giới-thiệu">Giới thiệu</h2>
 <p>Nhị phân là một chuỗi kí tự gồm [0,1] thường được dùng để biểu diễn các tín hiệu số trong môn Điện tử số(Kỹ thuật số PTIT), và được sử dụng bởi chính chiếc máy tính của chúng ta, những thao tác cực kì phức tạp cũng được biểu diễn bởi những dãy nhị phân. Vd: 001, 111, 111100110,…<br>
 Tất nhiên dãy nhị phân có quy luật cả đấy. Bây giờ chúng ta sẽ đi tìm cách để xây dựng bộ mã nhị phân nhé!</p>
-<hr>
 <h2 id="giới-thiệu-thuật-toán">Giới thiệu thuật toán</h2>
+<hr>
 <p>Ví dụ:</p>
 <ul>
 <li>Một dãy nhị phân cấp 3: 000, 001, 010, 011, 100, 101, 110, 111</li>
@@ -76,6 +77,7 @@ Lặp lại:<br>
 <p>Độ phức tạp: O(<span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mn>2</mn><mi>n</mi></msup><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">2^n)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 1em; vertical-align: -0.25em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height: 0.664392em;"><span class="" style="top: -3.063em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">n</span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span></span> - vậy nên sinh tối đa chỉ đến khoảng 20-22 thôi nhé :v</p>
 <p>Thuật toán trên khá là dài phải không, khó nhớ nữa :’(. Tuy nhiên chúng ta có cách ngắn hơn mà dễ hiểu chạy cũng ngang cái trên thôi :v</p>
 <h2 id="quay-lui-sinh-nhị-phân">Quay lui sinh nhị phân</h2>
+<hr>
 <blockquote>
 <p>Ở các kỳ trước, chúng ta đã học về Backtracking(Quay lui). Vậy nên ta sẽ áp dụng nó vào thuật toán này! (Thực ra có rất nhiều thuật toán liên quan tới Quay lui đó)</p>
 </blockquote>
@@ -116,6 +118,7 @@ Thấy từng phần tử nó lặp theo quy luật là cứ 0 rồi sẽ thành
 <span class="token punctuation">}</span>
 </code></pre>
 <h2 id="áp-dụng-giải-thuật">Áp dụng giải thuật</h2>
+<hr>
 <p>Sinh nhị phân áp dụng với rất nhiều bài tập mang tính “chọn lựa” - tức là có thể chọn hoặc không chọn.<br>
 Thôi thì nói nhiều lí thuyết quá, nhảy vào bài tập luôn cho nó đỡ buồn ngủ.<br>
 Link: <a href="https://www.spoj.com/PTIT/problems/BCCOW/">https://www.spoj.com/PTIT/problems/BCCOW/</a><br>
