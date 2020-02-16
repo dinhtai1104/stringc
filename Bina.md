@@ -3,13 +3,18 @@
 
 ---
 
+<h1 id="mục-lục">Mục lục</h1>
+<hr>
+<p><a href="#gi%E1%BB%9Bi-thi%E1%BB%87u-b%C3%A0i-to%C3%A1n">Giới thiệu bài toán</a><br>
+<a href="#truy%E1%BB%81n-th%E1%BB%91ng-linear-search">Thuật toán truyền thống</a><br>
+<a href="#c%C3%A1ch-t%E1%BB%91i-%C6%B0u">Tối ưu</a></p>
 <h2 id="giới-thiệu-bài-toán">Giới thiệu bài toán</h2>
 <p>Trong thực tế nhiều trường hợp, chúng ta luôn phải sắp xếp, tìm kiếm theo một chuẩn nào đó. Ví dụ như:</p>
 <ul>
 <li>Trong lớp có duy nhất một bạn được 9 điểm, hãy tìm bạn đó? Hay là một dãy sinh viên trong lớp tìm một sinh viên bất kì?</li>
 </ul>
 <p>Với những bài toán như vậy chúng ta sẽ phải đi tìm kiếm trên một tập nào đó, ví dụ như tìm kiếm tên sinh viên trên tập sinh viên trong lớp…</p>
-<h2 id="truyền-thốnglinear-search">Truyền thống(Linear Search)</h2>
+<h2 id="truyền-thống-linear-search">Truyền thống Linear Search</h2>
 <p>Tất cả chúng ta đều biết rằng, muốn tìm kiếm một sinh viên nào đó trên bảng danh sách thì cách đơn giản nhất đó là : “Đi từng sinh viên từ đầu, kiểm tra xem đó có phải sinh viên cần tìm không, không thì next”.<br>
 Ví dụ chúng ta có mảng A[] = {1, 2, 3, 4, 5, 6, 7, 8, 9} với Key = 7<br>
 Theo đúng cách trên thì ta có cách duyệt từ đầu đến cuối. Nếu giá trị mình cần tìm là Key thì sẽ in ra vị trí xuất hiện đó</p>
