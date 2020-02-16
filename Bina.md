@@ -19,7 +19,8 @@
 <hr>
 <p>Tất cả chúng ta đều biết rằng, muốn tìm kiếm một sinh viên nào đó trên bảng danh sách thì cách đơn giản nhất đó là : “Đi từng sinh viên từ đầu, kiểm tra xem đó có phải sinh viên cần tìm không, không thì next”.<br>
 Ví dụ chúng ta có mảng A[] = {1, 2, 3, 4, 5, 6, 7, 8, 9} với Key = 7<br>
-Theo đúng cách trên thì ta có cách duyệt từ đầu đến cuối. Nếu giá trị mình cần tìm là Key thì sẽ in ra vị trí xuất hiện đó</p>
+Theo đúng cách trên thì ta có cách duyệt từ đầu đến cuối. Nếu giá trị mình cần tìm là Key thì sẽ in ra vị trí xuất hiện đó<br>
+<img src="https://www.cdn.geeksforgeeks.org/wp-content/uploads/Linear-Search.png" alt="enter image description here"></p>
 <pre class=" language-cpp"><code class="prism  language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
 <span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
 <span class="token keyword">int</span> <span class="token function">timKiem</span><span class="token punctuation">(</span><span class="token keyword">int</span> Arr<span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span> <span class="token keyword">int</span> n<span class="token punctuation">,</span> <span class="token keyword">int</span> Key<span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -52,7 +53,8 @@ Tư tưởng thuật toán này đi từ phần tử giữa của dữ liệu hi
 <ul>
 <li>Phần tử tìm kiếm là ở vị trí giữa</li>
 <li>Nếu không phải ở giữa thì nếu A[giữa] &gt; Key tức là từ giữa-&gt;cuối đều &gt; Key nên ta sẽ chỉ thao tác với mảng bên trái.</li>
-<li>Tương tự với mảng bên phải</li>
+<li>Tương tự với mảng bên phải<br>
+<img src="https://www.geeksforgeeks.org/wp-content/uploads/Binary-Search.png" alt="enter image description here"></li>
 </ul>
 <p>Ví dụ: A[] = {1, 2, 3, 4, 5, 6, 7, 8, 9}; // Điều kiện đã được sắp xêp<br>
 Key = 1</p>
