@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Stack</title>
-  <link rel="stylesheet" href="https://stackedit.io/style.css" />
-</head>
-
-<body class="stackedit">
-  <div class="stackedit__html"><h2 id="giới-thiệu">Giới thiệu</h2>
+<h2 id="giới-thiệu">Giới thiệu</h2>
 <p>Tưởng tượng bạn có một giá sách thì khi cất sách thì cuốn đó được đặt lên trên cùng, và khi lấy ra thì phải lấy cuốn trên cùng, chứ không thể lấy ra hoặc cất lên từ vị trí khác. Đó chính là cách hoạt động của cấu trúc <strong>Stack</strong> (Ngăn xếp) theo kiểu <strong>LIFO</strong>(Last In First Out - Vào sau ra trước)<br>
 <img src="https://images.pexels.com/photos/51342/books-education-school-literature-51342.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260b&amp;h=750&amp;w=1260%22%3E" alt="enter image description here"></p>
 <h2 id="định-nghĩa">Định nghĩa</h2>
@@ -129,7 +118,4 @@ PTIT121E - Nguyên tố hóa học<br>
 <a href="https://www.spoj.com/PTIT/problems/PTIT121E/">https://www.spoj.com/PTIT/problems/PTIT121E/</a></p>
 <p>BCSTACK - Cấu trúc dữ liệu ngăn xếp (stack) (Cơ bản)<br>
 <a href="https://www.spoj.com/PTIT/problems/BCSTACK/">https://www.spoj.com/PTIT/problems/BCSTACK/</a></p>
-</div>
-</body>
 
-</html>
