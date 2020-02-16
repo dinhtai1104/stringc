@@ -1,9 +1,35 @@
----
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stack</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
 
----
+<body class="stackedit">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li><a href="#mục-lục">Mục lục</a>
+<ul>
+<li><a href="#giới-thiệu">Giới thiệu</a></li>
+<li><a href="#định-nghĩa">Định nghĩa</a></li>
+<li><a href="#code">Code</a></li>
+<li><a href="#ứng-dụng">Ứng dụng</a></li>
+<li><a href="#áp-dụng">Áp dụng</a></li>
+</ul>
+</li>
+</ul>
 
-<h1 id="mục-lục">Mục lục</h1>
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <h1 id="mục-lục">Mục lục</h1>
+<hr>
 <ul>
 <li><a href="#gi%E1%BB%9Bi-thi%E1%BB%87u">Giới thiệu</a></li>
 <li><a href="#%C4%91%E1%BB%8Bnh-ngh%C4%A9a">Định nghĩa</a></li>
@@ -12,9 +38,11 @@
 <li><a href="#%C3%A1p-d%E1%BB%A5ng">Áp dụng</a></li>
 </ul>
 <h2 id="giới-thiệu">Giới thiệu</h2>
+<hr>
 <p>Tưởng tượng bạn có một giá sách thì khi cất sách thì cuốn đó được đặt lên trên cùng, và khi lấy ra thì phải lấy cuốn trên cùng, chứ không thể lấy ra hoặc cất lên từ vị trí khác. Đó chính là cách hoạt động của cấu trúc <strong>Stack</strong> (Ngăn xếp) theo kiểu <strong>LIFO</strong>(Last In First Out - Vào sau ra trước)<br>
 <img src="https://images.pexels.com/photos/51342/books-education-school-literature-51342.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260b&amp;h=750&amp;w=1260%22%3E" alt="enter image description here"></p>
 <h2 id="định-nghĩa">Định nghĩa</h2>
+<hr>
 <p>Một ngăn xếp là một cấu trúc dữ liệu dạng thùng chứa <strong>(container)</strong> của các phần tử (thường gọi là các nút <strong>(node)</strong>) và có hai phép toán cơ bản:</p>
 <ul>
 <li><strong>push</strong>: Bổ sung một phần tử vào đỉnh (top) của ngăn xếp, nghĩa là sau các phần tử đã có trong ngăn xếp.</li>
@@ -22,6 +50,7 @@
 </ul>
 <p>Trong stack, các đối tượng có thể được thêm vào stack bất kỳ lúc nào <em>nhưng chỉ có đối tượng thêm vào sau cùng mới được phép lấy ra khỏi stack.</em></p>
 <h2 id="code">Code</h2>
+<hr>
 <p>Cấu trúc <strong>Stack</strong> được chứa trong thư viện <strong>stack</strong> vậy nên chúng ta cần <em>include&lt; stack &gt;</em><br>
 Cách khai báo:</p>
 <pre class=" language-cpp"><code class="prism  language-cpp">stack<span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token operator">&gt;</span> nganXep1<span class="token punctuation">;</span> <span class="token comment">// stack có các phần tử kiểu int</span>
@@ -60,6 +89,7 @@ stack<span class="token operator">&lt;</span><span class="token keyword">int</sp
 <span class="token punctuation">}</span>
 </code></pre>
 <h2 id="ứng-dụng">Ứng dụng</h2>
+<hr>
 <ul>
 <li>Đảo ngược xâu: nhập từng kí tự xâu cho vào stack, sau đó lấy từng kí tự ra ta sẽ được 1 xâu đảo ngược.</li>
 <li>Chuyển hệ cơ số 10 sang cơ số 2(cơ số bất kì): thực hiện liên tiếp phép chia dư n cho 2 rồi , n=n/2 và push kq phép chia dư vào stack, sau khi chia xong ta lấy các phần tử trong stack ra.</li>
@@ -67,6 +97,7 @@ stack<span class="token operator">&lt;</span><span class="token keyword">int</sp
 <li>Khử đệ quy (trong duyệt đồ thị DFS)</li>
 </ul>
 <h2 id="áp-dụng">Áp dụng</h2>
+<hr>
 <p>PTIT123J - Dấu ngoặc đúng<br>
 <a href="https://www.spoj.com/PTIT/problems/PTIT123J/">https://www.spoj.com/PTIT/problems/PTIT123J/</a></p>
 <p>Ý tưởng:<br>
@@ -132,3 +163,8 @@ PTIT121E - Nguyên tố hóa học<br>
 <p>BCSTACK - Cấu trúc dữ liệu ngăn xếp (stack) (Cơ bản)<br>
 <a href="https://www.spoj.com/PTIT/problems/BCSTACK/">https://www.spoj.com/PTIT/problems/BCSTACK/</a></p>
 
+    </div>
+  </div>
+</body>
+
+</html>
