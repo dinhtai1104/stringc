@@ -87,7 +87,7 @@ Ví dụ: Các cách sắp xếp các số từ 1 đến 3 có thể là: 123, 3
 <p>Để xác nhận một phần tử chỉ được dùng một lần ta sẽ dùng mảng Bool để lưu đánh dấu. Nếu phần tử chưa sử dụng thì sẽ có giá trị là 0 ngược lại sẽ có giá trị là 1. Ban đầu ta khởi tạo tất cả các phần tử trong mảng đều có giá trị là 0.</p>
 <p>Ý tưởng của phương pháp quay lui là chúng ta sẽ chọn ra một phần tử chưa sử dụng. Lưu phần tử đó vào một cấu hình tổ hợp, sau đó đánh dấu nó đã sử dụng. Ta sẽ lặp lại công việc như trên đến khi đủ cấu hình cho một tổ hợp thì sẽ xuất ra màn hình. Sau khi xuất ra ta lại quay trở lại bước trước đó để đánh dấu là nó chưa được chọn.</p>
 <p>Ta có thể hình dung bài toán như hình vẽ sau: Với n=3 thì bài toán trở thành liệt kê các hoán vị của các phần tử 1, 2, 3. Các hoán vị được liệt kê theo thứ tự từ điển tăng dần như hình vẽ sau:<br>
-&lt;IMAGE</p>
+<img src="https://nguyenvanhieu.vn/wp-content/uploads/2018/11/hoan-vi.png" alt="enter image description here"></p>
 <p>Code:</p>
 <pre class=" language-cpp"><code class="prism  language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
 <span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
