@@ -1,3 +1,8 @@
+---
+
+
+---
+
 <h2 id="giới-thiệu">Giới thiệu</h2>
 <p>Tưởng tượng bạn có một giá sách thì khi cất sách thì cuốn đó được đặt lên trên cùng, và khi lấy ra thì phải lấy cuốn trên cùng, chứ không thể lấy ra hoặc cất lên từ vị trí khác. Đó chính là cách hoạt động của cấu trúc <strong>Stack</strong> (Ngăn xếp) theo kiểu <strong>LIFO</strong>(Last In First Out - Vào sau ra trước)</p>
 <h2 id="định-nghĩa">Định nghĩa</h2>
