@@ -86,8 +86,9 @@ Lặp lại:<br>
 0 1<br>
 1 0<br>
 1 1<br>
-Thấy từng phần tử nó lặp theo quy luật là cứ 0 rồi sẽ thành 1 và ngược lại. Xem trên là vị trí 2 thì chu kì lặp là 1 đơn vị, vị trí 1 là 2 đơn vị.</p>
-<p>Code:</p>
+Thấy từng phần tử nó lặp theo quy luật là cứ 0 rồi sẽ thành 1 và ngược lại. Xem trên là vị trí 2 thì chu kì lặp là 1 đơn vị, vị trí 1 là 2 đơn vị.<br>
+<img src="https://v1study.com/public/images/article/giai-thuat-quay-lui-cay-nhi-phan-n-3.png" alt="enter image description here"><br>
+Code:</p>
 <pre class=" language-cpp"><code class="prism  language-cpp"><span class="token macro property">#<span class="token directive keyword">include</span> <span class="token string">&lt;iostream&gt;</span></span>
 <span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span>
 <span class="token keyword">int</span> a<span class="token punctuation">[</span><span class="token number">20</span><span class="token punctuation">]</span><span class="token punctuation">,</span>n<span class="token punctuation">;</span>
