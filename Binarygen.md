@@ -3,6 +3,11 @@
 
 ---
 
+<h1 id="mục-lục">Mục lục</h1>
+<p><a href="#gi%E1%BB%9Bi-thi%E1%BB%87u">Giới thiệu</a><br>
+<a href="#gi%E1%BB%9Bi-thi%E1%BB%87u-thu%E1%BA%ADt-to%C3%A1n">Giới thiệu thuật toán</a><br>
+<a href="#quay-lui-nh%E1%BB%8B-ph%C3%A2n">Quay lui nhị phân</a><br>
+<a href="#%C3%A1p-d%E1%BB%A5ng-gi%E1%BA%A3i-thu%E1%BA%ADt">Áp dụng giải thuật</a></p>
 <h2 id="giới-thiệu">Giới thiệu</h2>
 <p>Nhị phân là một chuỗi kí tự gồm [0,1] thường được dùng để biểu diễn các tín hiệu số trong môn Điện tử số(Kỹ thuật số PTIT), và được sử dụng bởi chính chiếc máy tính của chúng ta, những thao tác cực kì phức tạp cũng được biểu diễn bởi những dãy nhị phân. Vd: 001, 111, 111100110,…<br>
 Tất nhiên dãy nhị phân có quy luật cả đấy. Bây giờ chúng ta sẽ đi tìm cách để xây dựng bộ mã nhị phân nhé!</p>
