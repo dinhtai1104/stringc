@@ -1,9 +1,42 @@
----
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stack</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
 
----
+<body class="stackedit">
+  <div class="stackedit__left">
+    <div class="stackedit__toc">
+      
+<ul>
+<li><a href="#mục-lục">Mục lục</a>
+<ul>
+<li><a href="#giới-thiệu1">Giới thiệu{#1}</a></li>
+<li><a href="#định-nghĩa">Định nghĩa</a></li>
+<li><a href="#code">Code</a></li>
+<li><a href="#ứng-dụng">Ứng dụng</a></li>
+<li><a href="#áp-dụng">Áp dụng</a></li>
+</ul>
+</li>
+</ul>
 
-<h2 id="giới-thiệu">Giới thiệu</h2>
+    </div>
+  </div>
+  <div class="stackedit__right">
+    <div class="stackedit__html">
+      <h1 id="mục-lục">Mục lục</h1>
+<ul>
+<li><a href="#1">Giới thiệu</a></li>
+<li><a href="#1">Định nghĩa</a></li>
+<li><a href="#1">Code</a></li>
+<li><a href="#1">Ứng dụng</a></li>
+<li><a href="#1">Áp dụng</a></li>
+</ul>
+<h2 id="giới-thiệu1">Giới thiệu{#1}</h2>
 <p>Tưởng tượng bạn có một giá sách thì khi cất sách thì cuốn đó được đặt lên trên cùng, và khi lấy ra thì phải lấy cuốn trên cùng, chứ không thể lấy ra hoặc cất lên từ vị trí khác. Đó chính là cách hoạt động của cấu trúc <strong>Stack</strong> (Ngăn xếp) theo kiểu <strong>LIFO</strong>(Last In First Out - Vào sau ra trước)<br>
 <img src="https://images.pexels.com/photos/51342/books-education-school-literature-51342.jpeg?auto=compress&amp;cs=tinysrgb&amp;h=750&amp;w=1260b&amp;h=750&amp;w=1260%22%3E" alt="enter image description here"></p>
 <h2 id="định-nghĩa">Định nghĩa</h2>
@@ -124,3 +157,8 @@ PTIT121E - Nguyên tố hóa học<br>
 <p>BCSTACK - Cấu trúc dữ liệu ngăn xếp (stack) (Cơ bản)<br>
 <a href="https://www.spoj.com/PTIT/problems/BCSTACK/">https://www.spoj.com/PTIT/problems/BCSTACK/</a></p>
 
+    </div>
+  </div>
+</body>
+
+</html>
