@@ -9,12 +9,14 @@
 <a href="#truy%E1%BB%81n-th%E1%BB%91ng-linear-search">Thuật toán truyền thống</a><br>
 <a href="#c%C3%A1ch-t%E1%BB%91i-%C6%B0u">Tối ưu</a></p>
 <h2 id="giới-thiệu-bài-toán">Giới thiệu bài toán</h2>
+<hr>
 <p>Trong thực tế nhiều trường hợp, chúng ta luôn phải sắp xếp, tìm kiếm theo một chuẩn nào đó. Ví dụ như:</p>
 <ul>
 <li>Trong lớp có duy nhất một bạn được 9 điểm, hãy tìm bạn đó? Hay là một dãy sinh viên trong lớp tìm một sinh viên bất kì?</li>
 </ul>
 <p>Với những bài toán như vậy chúng ta sẽ phải đi tìm kiếm trên một tập nào đó, ví dụ như tìm kiếm tên sinh viên trên tập sinh viên trong lớp…</p>
 <h2 id="truyền-thống-linear-search">Truyền thống Linear Search</h2>
+<hr>
 <p>Tất cả chúng ta đều biết rằng, muốn tìm kiếm một sinh viên nào đó trên bảng danh sách thì cách đơn giản nhất đó là : “Đi từng sinh viên từ đầu, kiểm tra xem đó có phải sinh viên cần tìm không, không thì next”.<br>
 Ví dụ chúng ta có mảng A[] = {1, 2, 3, 4, 5, 6, 7, 8, 9} với Key = 7<br>
 Theo đúng cách trên thì ta có cách duyệt từ đầu đến cuối. Nếu giá trị mình cần tìm là Key thì sẽ in ra vị trí xuất hiện đó</p>
@@ -43,6 +45,7 @@ Theo đúng cách trên thì ta có cách duyệt từ đầu đến cuối. N�
 </code></pre>
 <p>Nhìn sơ qua thì thuật toán này khá là tốt để tiếp cận bởi nó tuyến tính, dễ hiểu, dễ code. Nhưng nếu theo con mắt của một người ưu tiên về giải thuật hay với công việc sau này, cách giải quyết này không thể được áp dụng bởi độ phức tạp của nó quá lớn O(n) giả sử n = <span class="katex--inline"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><msup><mn>0</mn><mn>10</mn></msup></mrow><annotation encoding="application/x-tex">10^{10}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height: 0.814108em; vertical-align: 0em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height: 0.814108em;"><span class="" style="top: -3.063em; margin-right: 0.05em;"><span class="pstrut" style="height: 2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span><span class="mord mtight">0</span></span></span></span></span></span></span></span></span></span></span></span></span> thì toang.</p>
 <h2 id="cách-tối-ưu">Cách tối ưu</h2>
+<hr>
 <p>Về thuật toán tối ưu sự tìm kiếm thì có một thuật toán kiểu : “À mày không phải cái ta tìm kiếm thì chắc nó ở nửa sau hoặc nửa đầu rồi” - Chính là Binary Search (Tìm kiếm nhị phân)<br>
 Khi sử dụng cách này thì phải đảm bảo điều kiện là dữ liệu của chúng ta đã được sắp xếp (theo bất kì kiểu gì)<br>
 Tư tưởng thuật toán này đi từ phần tử giữa của dữ liệu hiện tại. Khi mảng hiện tại được chia làm hai thì chỉ có 3 khả năng duy nhất:</p>
