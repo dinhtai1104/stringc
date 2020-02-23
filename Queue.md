@@ -5,8 +5,8 @@
 
 <h1 id="mục-lục">Mục lục</h1>
 <ul>
-<li><a href="Gi%E1%BB%9Bi-thi%E1%BB%87u-QUEUE">QUEUE</a></li>
-<li><a href="Priority_QUEUE-(H%C3%A0ng-%C4%91%E1%BB%A3i-%C6%B0u-ti%C3%AAn)">Priority_QUEUE</a></li>
+<li>[QUEUE]</li>
+<li>[Priority_QUEUE]</li>
 </ul>
 <hr>
 <h2 id="giới-thiệu-queue">Giới thiệu QUEUE</h2>
