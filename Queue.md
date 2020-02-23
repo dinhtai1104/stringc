@@ -51,5 +51,7 @@ q<span class="token punctuation">.</span><span class="token function">push</span
 <li>Có nhiều ứng dụng nhưng có thể dùng nó để sắp xếp cũng khá tốt.</li>
 </ul>
 <p>Để hiểu rõ cách hoạt động của priority_queue các bạn nên tìm hiểu thêm cấu trúc Heap(google, có thể tôi sẽ thêm vào các bài sau)</p>
-<p>Luyện tập:</p>
+<p>Luyện tập:<br>
+<a href="https://www.spoj.com/PTIT/problems/P175SUME/">https://www.spoj.com/PTIT/problems/P175SUME/</a><br>
+Luyện tập thêm tại SPOJ/PTIT</p>
 
