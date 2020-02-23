@@ -4,8 +4,12 @@
 ---
 
 <h1 id="mục-lục">Mục lục</h1>
+<ul>
+<li><a href="Gi%E1%BB%9Bi-thi%E1%BB%87u-QUEUE">QUEUE</a></li>
+<li><a href="Priority_QUEUE-(H%C3%A0ng-%C4%91%E1%BB%A3i-%C6%B0u-ti%C3%AAn)">Priority_QUEUE</a></li>
+</ul>
 <hr>
-<h2 id="giới-thiệu-queue---hàng-đợi">Giới thiệu QUEUE - Hàng đợi</h2>
+<h2 id="giới-thiệu-queue">Giới thiệu QUEUE</h2>
 <p>Chắc hẳn các bạn đã từng xếp hàng rồi chứ nhỉ? Khi mua đồ, khi mua vé xem phim, hay xếp hàng ra về. Mọi lần xếp hàng sẽ bắt đầu từ người đứng đầu tiên rồi tới các bạn phía sau, và tất nhiên người nào đến sớm hơn thì sẽ được ra về sớm hơn. Đó cũng chính là minh họa cho Cấu trúc QUEUE mà mình muốn hướng tới ngày hôm nay.<br>
 QUEUE-tạm dịch là hàng đợi, là cấu trúc song hành với STACK nhưng hoạt động theo chuẩn LILO(Last In Last Out) hoặc FIFO(Fist In First Out). Hiểu một cách đơn giản là Vào Trước Ra Trước.<br>
 Trong QUEUE, có hai vị trí quan trọng là vị trí đầu danh sách (front), nơi phần tử được lấy ra, và vị trí cuối danh sách (back), nơi phần tử cuối cùng được thêm vào</p>
@@ -29,7 +33,7 @@ s<span class="token punctuation">.</span><span class="token function">back</span
 <li>tổ chức lưu vết các quá trình tìm kiếm theo chiều rộng (BFS) và quay  lui, vét cạn</li>
 <li>tổ chức quản lý và phân phốitiến trình trong các hệ điều hành, tổ chức bộ  đệm bàn phím.</li>
 </ul>
-<h2 id="priority_queue---hàng-đợi-ưu-tiên">Priority_QUEUE - Hàng đợi ưu tiên</h2>
+<h2 id="priority_queuehàng-đợi-ưu-tiên">Priority_QUEUE(Hàng đợi ưu tiên)</h2>
 <h3 id="khái-niệm">Khái niệm</h3>
 <p>Nhắc tới khái niệm “Ưu tiên” chắc hẳn chúng ta đã biết tính chất của loại hàng đợi này. Đây chính là ví dụ của sự bất công trong xã hội, khi chỉ vì một yếu tố nào đó mà người tới trước chưa chắc đã nhận được thứ mình muốn đầu tiên, hay nói thẳng ra thì người nào có điều kiện tốt nhất thì sẽ được ưu tiên hơn.</p>
 <p>Ví dụ: Các thành phần trong hàng đợi được ưu tiên theo độ lớn giảm dần, thì giữa 1 và 5, dù 1 có vào trước nhưng khi đến 5 vào vẫn phải nhường chỗ cho nó.</p>
