@@ -11,6 +11,7 @@
 <hr>
 <h2 id="giới-thiệu-queue">Giới thiệu QUEUE</h2>
 <p>Chắc hẳn các bạn đã từng xếp hàng rồi chứ nhỉ? Khi mua đồ, khi mua vé xem phim, hay xếp hàng ra về. Mọi lần xếp hàng sẽ bắt đầu từ người đứng đầu tiên rồi tới các bạn phía sau, và tất nhiên người nào đến sớm hơn thì sẽ được ra về sớm hơn. Đó cũng chính là minh họa cho Cấu trúc QUEUE mà mình muốn hướng tới ngày hôm nay.<br>
+<img src="https://jes.edu.vn/wp-content/uploads/2017/12/net-dep-van-hoa-xep-hang-cua-nguoi-nhat.jpg" alt="enter image description here"><br>
 QUEUE-tạm dịch là hàng đợi, là cấu trúc song hành với STACK nhưng hoạt động theo chuẩn LILO(Last In Last Out) hoặc FIFO(Fist In First Out). Hiểu một cách đơn giản là Vào Trước Ra Trước.<br>
 Trong QUEUE, có hai vị trí quan trọng là vị trí đầu danh sách (front), nơi phần tử được lấy ra, và vị trí cuối danh sách (back), nơi phần tử cuối cùng được thêm vào</p>
 <h2 id="code">Code</h2>
